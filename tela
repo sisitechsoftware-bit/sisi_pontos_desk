@@ -1,0 +1,29 @@
+<icon> Clientes
+Gerencie os clientes cadastrados no sistema.                         (  Buscar por nome, telefone ou cartao... ) [filtro] [ + Novo Cliente ]
+
+[A][B][C][D][E][F][G][H][I][J][K][L][M][N][O][P][Q][R][S][T][U][V][W][Y][Z]
+
+A
+[
+    <fake image so para aparcer a primeira letra do nome e do ultimo sobrenome(AA)> Andre Almeida <icon> 120 pontos  [<icon de ver>] [<icon de editar>] [<icon de excluir>] [<icon > >]
+    <icon tel> (16) 99728-0728
+    <icon cartao> 0001
+]
+[
+    <fake image so para aparcer a primeira letra do nome e do ultimo sobrenome(AS)> Ana Carolina Souza <icon> 85 pontos  [<icon de ver>] [<icon de editar>] [<icon de excluir>] [<icon > >]
+    <icon tel> (16) 99728-0724
+    <icon cartao> 0002
+]
+
+B
+[
+    <fake image so para aparcer a primeira letra do nome e do ultimo sobrenome(BS)> Bruno Santos <icon> 90 pontos  [<icon de ver>] [<icon de editar>] [<icon de excluir>] [<icon > >]
+    <icon tel> (16) 99928-0724
+    <icon cartao> 0003
+]
+[
+    <fake image so para aparcer a primeira letra do nome e do ultimo sobrenome(BO)> Beatriz Oliveira <icon> 140 pontos  [<icon de ver>] [<icon de editar>] [<icon de excluir>] [<icon > >]
+    <icon tel> (16) 99930-0221
+    <icon cartao> 0004
+]
+...
