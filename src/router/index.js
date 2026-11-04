@@ -4,6 +4,12 @@ import ClienteForm from '../views/cliente/ClienteForm.vue'
 import ClienteDetail from '../views/cliente/ClienteDetail.vue'
 
 import AtendimentosList from '../views/atendimentos/AtendimentosList.vue'
+import AtendimentoEmAndamento from '../views/atendimentos/AtendimentoEmAndamento.vue'
+import AtendimentoNovoCliente from '../views/atendimentos/AtendimentoNovoCliente.vue'
+import AtendimentoNovoRevisarCliente from '../views/atendimentos/AtendimentoNovoRevisarCliente.vue'
+import AtendimentoNovoProfissional from '../views/atendimentos/AtendimentoNovoProfissional.vue'
+import AtendimentoPagamento from '../views/atendimentos/AtendimentoPagamento.vue'
+// import AtendimentoNovoProfissional from '../views/atendimentos/AtendimentoNovoProfissional.vue'
 
 import ServicosList from '../views/servicos/ServicosList.vue'
 import ServicoForm from '../views/servicos/ServicoForm.vue'
@@ -26,6 +32,14 @@ const routes = [
   { path: '/clientes/:id/editar', component: ClienteForm },
 
   { path: '/atendimentos', component: AtendimentosList },
+  { path: '/atendimentos/:id', component: AtendimentoEmAndamento },
+  { path: '/atendimentos/novo', component: AtendimentoNovoCliente },
+  { path: '/atendimentos/novo/:clienteId', component: AtendimentoNovoRevisarCliente },
+  { path: '/atendimentos/novo/:clienteId/profissional', component: AtendimentoNovoProfissional },
+  { path: '/atendimentos/:id/pagamento', component: AtendimentoPagamento },
+  { path: '/atendimentos/:id/pagamento', component: AtendimentoPagamento },
+
+  
 
   { path: '/servicos', component: ServicosList },
   { path: '/servicos/novo', component: ServicoForm },
